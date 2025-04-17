@@ -1,0 +1,214 @@
+body {
+    background-image: url('/Images/Lace\ BG.jpg');
+font-family: 'kosugi maru';
+    color: white;
+    font-size: 15px;
+    	line-height: 1.2;
+    text-align: left;
+    overflow-y: scroll;
+    min-height: 150vh;
+    
+}
+
+
+.wrapper {
+width: 900px;
+height: auto;
+padding: 5px;
+background-color: transparent;
+border-radius: 10px;
+margin-left: 250px;
+}
+
+aside {
+    width: 220px;
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+    order: 2;
+    margin-top: 17px;
+}
+
+.left {
+    order: 1;
+ }
+
+ .right {
+    order: 3;
+ }
+
+ #flex {
+    display: flex;
+ }
+
+ .scroll {
+  overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+ }
+
+::-webkit-scrollbar {
+  width: 14px;
+  background-image: url(/Images/plaid.jpg);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: url(/Images/sparkle.jpg);
+  background-color: black;
+  background-size: cover;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+ .box {
+    border: #000000 ridge;
+    margin: 5px;
+    padding: 5px;
+    background-image: url('Images/plaid.jpg');
+ background-size: 50%;
+}
+
+.content {
+    background-image: url('/Images/pink\ bats.jpg');
+    background-size: 35%;
+border: 1px solid #030429;
+color: #030429;
+padding: 5px;
+margin: 5px;
+}
+
+.content a:visited, .content a{
+  color: rgb(71, 13, 13);
+}
+
+.nav {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.nav a, .nav a:visited {
+    padding-left: 5px;
+    width: 150px;
+    height: 27px;
+    font-weight: bold;
+    background: linear-gradient(89deg, #000000, transparent);
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 5px;
+}
+
+.nav a:hover {
+    color:#000000;
+    text-shadow: 1px 1px 0px #ffffff, -1px -1px 0px #ffffff, 1px -1px 0px #ffffff, -1px 1px 0px #ffffff;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    letter-spacing: 1.25px;
+    font-style: italic;
+}
+
+.nav button, .upd button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #030429;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.header {
+    height: 100px;
+    background-image: url('/Images/Swaying\ Crosses.gif');
+    background-size: 100%;
+border: ridge #000000;
+    position: relative;
+    image-rendering: auto;
+}
+
+.ht {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'CloisterBlack';
+    text-shadow: -2px 0 #511414, 0 1px #383738, 2px 0 #730f0f, 0 -1px #383738, 0 0 4px #000000;
+  }
+
+
+  @font-face {
+    font-family:CloisterBlack;
+    src: url('/Fonts/CloisterBlack.ttf')
+  }
+  
+  @font-face {
+    font-family:BLKCHCRY;
+    src: url('/Fonts/BLKCHCRY.TTF')
+  }
+
+  .button {
+    font-family:BLKCHCRY;
+    src: url('/Fonts/BLKCHCRY.TTF')
+  }
+  
+  
+  .content a, .content a:visited{
+        transition: letter-spacing 0.5s ease, font-style 0.5s ease;
+        text-decoration: none;
+  }
+  
+  .content a:hover {
+    letter-spacing: 3px;
+    font-style: italic;
+  }
+  
+  .gallery img{
+    height: 200px;
+  }
+  
+  .blinkies {
+  width: 220px;
+    
+  }
+  .blogheader {
+  width: 220px;
+  background: linear-gradient(89deg, #000000, transparent);
+  border: 1px solid pink;
+  color: pink;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: CloisterBlack;
+  font-size: 17px;
+  }
+  
+  .bloggrid {
+  display:block;
+  width:240px;
+  background:black;
+  border:5px pink;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  text-align:center;
+  margin-bottom: 5px;
+  }
+  .textbox {
+    width: 220px;
+    background:black;
+    border:5px pink;
+    color:white;
+    align-items: center;
+    margin:auto;
+    text-align:left;
+    margin-bottom: 5px;
+  }
